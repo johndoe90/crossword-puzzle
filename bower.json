@@ -1,0 +1,24 @@
+{
+  "name": "crossword-puzzle",
+  "version": "0.0.0",
+  "homepage": "https://github.com/johndoe90/crossword-puzzle",
+  "authors": [
+    "Phillip Friedrich <friedrich.phillip@gmail.com>"
+  ],
+  "description": "crossword puzzle webapp",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-latest": "~1.3.14",
+    "angular-ui-router": "~0.2.13",
+    "modernizr": "~2.8.3"
+  }
+}

@@ -16,10 +16,18 @@
     "url": "https://github.com/johndoe90/crossword-puzzle/issues"
   },
   "homepage": "https://github.com/johndoe90/crossword-puzzle",
-  "dependencies": {
-    "express": "^4.12.2"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.8.11"
+    "connect-livereload": "^0.5.3",
+    "express": "^4.12.2",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.2",
+    "jasmine-core": "^2.2.0",
+    "jshint": "^2.6.3",
+    "jshint-stylish": "^1.0.1",
+    "karma": "^0.12.31",
+    "karma-jasmine": "^0.3.5",
+    "path": "^0.11.14",
+    "tiny-lr": "^0.1.5"
   }
 }
