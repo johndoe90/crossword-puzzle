@@ -1,0 +1,17 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.field {
+	background: green;
+	border: 1px solid yellow;
+
+	width: 100px;
+	height: 100px;
+}
+
+.fp {
+	width: 100%;
+	height: 100%;
+}

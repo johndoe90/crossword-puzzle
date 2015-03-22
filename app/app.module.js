@@ -1,8 +1,7 @@
 "use strict";
 
 angular
-	.module("crosswordPuzzle", ["ui.router"])
-	.config(["$stateProvider", function($stateProvider) {
-		//$routeProvider.otherwise({redirectTo: "/"});
+	.module("crosswordPuzzle", ["crosswordPuzzle.puzzle", "ngRoute"])
+	.config(["$routeProvider", function($routeProvider) {
+		$routeProvider.otherwise({redirectTo: "/edit"});
 	}]);
-

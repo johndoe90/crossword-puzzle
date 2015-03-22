@@ -4,15 +4,17 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>crossword-puzzle</title>
+		<link rel="stylesheet" href="/app/puzzle/style.css" />
 		<script src="/bower_components/modernizr/modernizr.js"></script>
 
 	</head>
 
 	<body>
-		This is the content
+	<div class="fp" ng-view></div>
 
 		<script src="/bower_components/angular/angular.js"></script>	
-		<script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<script src="/bower_components/angular-route/angular-route.js"></script>
 		<script src="/app/app.module.js"></script>
+		<script src="/app/puzzle/puzzle.js"></script>
 	</body>
 </html>
